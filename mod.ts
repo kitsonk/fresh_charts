@@ -51,5 +51,10 @@
  */
 
 export { Chart } from "./Chart.tsx";
-export { type ChartConfiguration, type ChartOptions, plugins } from "./core.ts";
+export {
+  type ChartConfiguration,
+  type ChartOptions,
+  globalDefaults,
+  plugins,
+} from "./core.ts";
 export { renderChart } from "./render.ts";
